@@ -1,0 +1,9 @@
+.sidebar__row {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: background 0.2s ease-in;
+}
+
+.sidebar__row:hover {
+    background: #e4e6e9;
+}

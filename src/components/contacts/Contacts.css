@@ -1,0 +1,60 @@
+.contacts__header {
+    color: #808080;
+}
+
+.contacts__header > h5 {
+    font-size: 1.1rem;
+}
+
+.contacts__icon {
+    cursor: pointer;
+    transition: background 0.25s ease-in;
+}
+
+.contacts__icon:hover {
+    background: #e4e6e9;
+}
+
+.contacts__profile__wrapper {
+    cursor: pointer;
+    border-radius: 0.6rem;
+    transition: background 0.25s ease-in;
+}
+
+.contacts__profile__wrapper:hover {
+    background: #e4e6e9;
+}
+
+.contacts__avatar {
+    position: relative !important;
+    overflow: visible !important;
+}
+
+.contacts__avatar > img {
+    border-radius: 50% !important;
+}
+
+.contacts__avatar::after {
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2f9a48;
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+    z-index: 100;
+    border: 1px solid #fff;
+}
+
+.contacts__avatar__status {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+}

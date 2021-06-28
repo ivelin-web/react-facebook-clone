@@ -1,0 +1,31 @@
+.post__wrapper {
+    border-radius: 0.4rem;
+}
+
+.post__timestamp {
+    color: #808080;
+    font-size: 0.8rem;
+}
+
+.post__icon {
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+}
+
+.post__icon:hover {
+    background: #f0f2f5;
+}
+
+.post__footer {
+    color: #808080;
+}
+
+.post__footer__item {
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+}
+
+.post__footer__item:hover {
+    background: #f0f2f5;
+}

@@ -1,0 +1,39 @@
+.card__input__box {
+    border-radius: 0.4rem;
+}
+
+.card__input {
+    border: none;
+    outline: none;
+    background: #f0f2f5;
+    border-radius: 1.4rem;
+    color: #222;
+}
+
+.card__input__box__item {
+    border-radius: 0.6rem;
+    color: #606266;
+    cursor: pointer;
+    transition: background 0.2s ease-in;
+}
+
+.card__input__box__item:hover {
+    background: #f0f2f5;
+}
+
+.card__input__image__wrapper {
+    cursor: pointer;
+    transition: transform 0.25s ease-out;
+    border-radius: 50%;
+}
+
+.card__input__image__wrapper > p {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #e42645;
+}
+
+.card__input__image__wrapper:hover {
+    transform: scale(1.05);
+}
