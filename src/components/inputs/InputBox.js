@@ -89,7 +89,7 @@ export default function InputBox() {
                 </form>
                 {imageToPost && (
                     <div className="card__input__image__wrapper d-flex flex-column align-items-center justify-content-center ms-3 text-center" onClick={removeImageFromPost}>
-                        <img style={{ display: "block", objectFit: "contain", width: 75, height: 75 }} src={imageToPost} alt="Post Image" />
+                        <img className="rounded-circle" style={{ display: "block", objectFit: "cover", width: 75, height: 75 }} src={imageToPost} alt="Post Image" />
                         <p>Remove</p>
                     </div>
                 )}
