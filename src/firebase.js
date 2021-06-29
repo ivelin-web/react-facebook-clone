@@ -1,5 +1,5 @@
 import firebase from "firebase";
-import environment from "../environment";
+import environment from "./environment";
 
 const firebaseApp = firebase.initializeApp(environment.firebaseConfig);
 const db = firebaseApp.firestore();
