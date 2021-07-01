@@ -19,7 +19,7 @@ export default function Header({ onLogout }) {
     return (
         <header className="d-flex align-items-center justify-content-sm-between px-3 py-1">
             <div className="d-flex align-items-center gap-2">
-                <img className="rounded-circle" style={{ width: 40, height: 40, objectFit: "contain", cursor: "pointer" }} src="./assets/images/facebook.svg" alt="Logo" />
+                <img className="rounded-circle" style={{ width: 40, height: 40, objectFit: "cover", cursor: "pointer" }} src="./assets/images/facebook.svg" alt="Logo" />
                 <div className="p-2 d-flex align-items-center header__search__wrapper">
                     <SearchIcon style={{ color: "#808080" }} />
                     <input className="header__search ms-2 p-0 d-none d-xl-flex align-items-center" type="text" placeholder="Search Facebook" />

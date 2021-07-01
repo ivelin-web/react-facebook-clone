@@ -33,9 +33,24 @@ header {
 .header__icon {
     position: relative;
     cursor: pointer;
-    padding: 0.6rem 0.8rem;
+    padding: 0.6rem 0.6rem;
     border-radius: 0.6rem;
     transition: background 0.2s ease-in;
+}
+
+.header__icon:last-child {
+    display: none;
+}
+
+@media (min-width: 450px) {
+    .header__icon {
+        padding-left: 0.8rem;
+        padding-right: 0.8rem;
+    }
+
+    .header__icon:last-child {
+        display: block;
+    }
 }
 
 @media (min-width: 576px) {

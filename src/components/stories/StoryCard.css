@@ -4,6 +4,17 @@
     position: relative;
     cursor: pointer;
     border-radius: 1rem;
+    flex-grow: 1;
+}
+
+.story__card:last-child {
+    display: none !important;
+}
+
+@media (min-width: 576px) {
+    .story__card:last-child {
+        display: block !important;
+    }
 }
 
 @media (min-width: 768px) {
