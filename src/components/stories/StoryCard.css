@@ -13,7 +13,7 @@
 
 @media (min-width: 576px) {
     .story__card:last-child {
-        display: block !important;
+        display: flex !important;
     }
 }
 
